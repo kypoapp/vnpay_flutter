@@ -1,0 +1,25 @@
+name: payment_vnpay_flutter
+description: A new Flutter project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+  flutter: ">=1.17.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: 6.1.7
+  app_links: 3.4.5
+  flutter_inappwebview:
+    git:
+      url: https://github.com/dung2212/flutter_inappwebview.git
+  flutter_intent_scheme_android:
+    git:
+      url: https://github.com/dung2212/flutter_intent_scheme_android.git
+      ref: master
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
